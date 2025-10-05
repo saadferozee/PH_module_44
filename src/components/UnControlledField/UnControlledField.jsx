@@ -35,7 +35,7 @@ const UnControlledField = () => {
                         placeholder='Enter Password'
                     />
                     {/* <p className='text-red-600 font-thin text-xs'>{error}</p> */}
-                    <input className='border bg-gray-200 py-1 px-2.5 cursor-pointer' type="submit" value="Login" />
+                    <input className='border bg-[#00000020] py-1 px-2.5 cursor-pointer' type="submit" value="Login" />
                 </form>
             </div>
         </div>

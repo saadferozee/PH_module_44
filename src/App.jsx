@@ -8,7 +8,7 @@ import UnControlledField from './components/UnControlledField/UnControlledField'
 function App() {
 
     return (
-        <div className='p-20 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-around'>
+        <div className='p-20 grid grid-cols-1 lg:grid-cols-2 gap-18 justify-around'>
             {/* <h1>React Form</h1> */}
             <SimpleForm></SimpleForm>
             <ActionData></ActionData>

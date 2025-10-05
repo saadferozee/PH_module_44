@@ -17,7 +17,7 @@ const ActionData = () => {
                     {/* <br /> */}
                     <input className='border py-1 px-2.5 font-thin' type="email" name='email' placeholder='Enter your Email' />
                     {/* <br /> */}
-                    <input className='border bg-gray-200 py-1 px-2.5 cursor-pointer' type="submit" value="Submit" />
+                    <input className='border bg-[#00000020] py-1 px-2.5 cursor-pointer' type="submit" value="Submit" />
                 </form>
             </div>
         </div>
