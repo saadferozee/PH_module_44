@@ -13,10 +13,10 @@ const SimpleForm = () => {
     }
 
     return (
-        <div className='border-3 w-full min-h-[40vh] text-center'>
+        <div className='border-2 w-full min-h-[40vh] text-center'>
             <h2 className='my-7 font-mono text-2xl'>event.target.name.value</h2>
             <hr className='m-3.5' />
-            <div className='my-[10vh] p-12'>
+            <div className='my-[4vh] p-12'>
                 <form className='my-10 flex flex-col gap-2.5' onSubmit={handleSubmit}>
                     <input className='border py-1 px-2.5 font-thin' type="text" name="name" placeholder='Enter Your Name' />
                     {/* <br /> */}
