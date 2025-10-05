@@ -10,7 +10,6 @@ const ControlledField2 = () => {
     }
 
     const handleSetEmail = e => {
-        console.log(e.target.value);
         const updatingFormData = formData;
         updatingFormData.email = e.target.value;
 
@@ -19,7 +18,6 @@ const ControlledField2 = () => {
     }
 
     const handleSetPassword = e => {
-        console.log(e.target.value);
         const updatingFormData = formData;
         updatingFormData.password = e.target.value;
 
@@ -33,14 +31,14 @@ const ControlledField2 = () => {
             <hr className='m-3.5' />
             <div className='my-[4vh] p-12'>
                 <form className='my-10 flex flex-col gap-2.5' onSubmit={handleSubmit}>
-                    <input 
-                        className='border py-1 px-2.5 font-thin' 
-                        type="email" 
-                        name="email" 
+                    <input
+                        className='border py-1 px-2.5 font-thin'
+                        type="email"
+                        name="email"
                         defaultValue={formData.email}
                         onChange={handleSetEmail}
-                        required 
-                        placeholder='Enter Your Email' 
+                        required
+                        placeholder='Enter Your Email'
                     />
                     <input
                         className='border py-1 px-2.5 font-thin'
@@ -51,7 +49,6 @@ const ControlledField2 = () => {
                         required
                         placeholder='Enter Password'
                     />
-                    {/* <p className='text-red-600 font-thin text-xs'>{error}</p> */}
                     <input className='border bg-[#00000020] py-1 px-2.5 cursor-pointer' type="submit" value="Login" />
                 </form>
             </div>

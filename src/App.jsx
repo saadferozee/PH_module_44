@@ -4,6 +4,8 @@ import ControlledField from './components/ControlledField/ControlledField'
 import ControlledField2 from './components/ControlledField2/ControlledField2'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import UnControlledField from './components/UnControlledField/UnControlledField'
+import UsingCustomHook from './components/UsingCustomHook/UsingCustomHook'
+import UsingCustomHook2 from './components/UsingCustomHook2/UsingCustomHook2'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
             <ControlledField></ControlledField>
             <ControlledField2></ControlledField2>
             <UnControlledField></UnControlledField>
+            <UsingCustomHook></UsingCustomHook>
+            <UsingCustomHook2></UsingCustomHook2>
         </div>
     )
 }
